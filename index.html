@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="favicon.ico">
@@ -14,6 +14,7 @@
 
     <!-- Custom styles for this template -->
     <link href="product.css" rel="stylesheet">
+    <link href="sticky-footer-navbar.css" rel="stylesheet">
 
     <style>
     .hello {
@@ -34,6 +35,9 @@
     
 
 
+
+
+
 .headee {
   color: black;
   background-color: white;
@@ -48,28 +52,54 @@
     padding: 10px;
 } 
 
+#navbarsExample04 a:hover { 
+    background:#A26A42;
+    border:none;
+}
+
+
+
   </style>
   </head>
 
   <body>
 
-<div class="headee">
-<h1><center>  MECHANIZED ORDNANCE CARRIER/LOADER </center></h1>
-</div>
 
-    <nav class="site-header sticky-top py-1">
-      <div class="container d-flex flex-column flex-md-row justify-content-between">
-        <a class="py-2" href="#">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="d-block mx-auto"><circle cx="12" cy="12" r="10"></circle><line x1="14.31" y1="8" x2="20.05" y2="17.94"></line><line x1="9.69" y1="8" x2="21.17" y2="8"></line><line x1="7.38" y1="12" x2="13.12" y2="2.06"></line><line x1="9.69" y1="16" x2="3.95" y2="6.06"></line><line x1="14.31" y1="16" x2="2.83" y2="16"></line><line x1="16.62" y1="12" x2="10.88" y2="21.94"></line></svg>
-        </a>
-        <a class="py-2 d-none d-md-inline-block" href="index.html">Home</a>
-        <a class="py-2 d-none d-md-inline-block" href="product.html">Product</a>
-        <a class="py-2 d-none d-md-inline-block" href="team.html">Team</a>
-        <a class="py-2 d-none d-md-inline-block" href="sponsor.html">Sponsor</a>
+
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark ">
+       
+
+      <a class="navbar-brand" href="#">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="d-block mx-auto"><circle cx="12" cy="12" r="10"></circle><line x1="14.31" y1="8" x2="20.05" y2="17.94"></line><line x1="9.69" y1="8" x2="21.17" y2="8"></line><line x1="7.38" y1="12" x2="13.12" y2="2.06"></line><line x1="9.69" y1="16" x2="3.95" y2="6.06"></line><line x1="14.31" y1="16" x2="2.83" y2="16"></line><line x1="16.62" y1="12" x2="10.88" y2="21.94"></line></svg>
+
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse " id="navbarsExample04">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+            <a class="nav-link" href="index.html"> Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="product.html">Product <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="team.html">Team <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="sponsor.html">Sponsor <span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
         
       </div>
+    
     </nav>
 
+<div class="headee p-5 p-md-5 m-md-3 text-center bg-transparent">
+<h2><center> <font color="black"> MECHANIZED ORDNANCE CARRIER/LOADER </font></center></h2>
+</div>
 
 
 
@@ -95,7 +125,7 @@
           <p class="lead1">Reduce number of hands on deck</p>
         </div>
         <div class="image1">
-            <img src="sailor.jpg" alt="Image 1" style="width:500px;height:400px;">
+            <img src="sailor.jpg" alt="Image 1" style="max-width:100%;height:auto;">
         </div>
         <!--<div class="bg-light box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>-->
       </div>
@@ -105,7 +135,7 @@
           <p class="lead2"> Less people on the carrier = More savings for the Navy </p>
         </div>
         <div class="image2">
-            <img src="cost.jpg" alt="Image 2" style="width:500px;height:400px;">
+            <img src="savings.jpg" alt="Image 2" style="max-width:100%;height:auto;">
         </div>
         <!--<div class="bg-dark box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>-->
       </div>
@@ -120,7 +150,7 @@
           <p class="lead3">Extremely easy to maneuever</p>
         </div>
         <div  class="image3">
-            <img src="controller.jpg" alt="Image 3" style="width:500px;height:400px;">
+            <img src="controller.jpg" alt="Image 3" style="max-width:100%;height:auto;">
         </div>
         <!--<div class="bg-white box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>-->
       </div>
@@ -130,7 +160,7 @@
           <p class="lead4">Safety is No Accident</p>
         </div>
         <div class="image4">
-            <img src="safety.jpg" alt="Image 4" style="width:500px;height:400px;">
+            <img src="safety.jpg" alt="Image 4" style="max-width:100%;height:auto;">
         </div>
         <!--<div class="bg-white box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>-->
       </div>
